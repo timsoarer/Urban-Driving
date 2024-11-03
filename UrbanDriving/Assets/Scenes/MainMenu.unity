@@ -531,14 +531,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 413202224}
         m_TargetAssemblyTypeName: MenuToggles, Assembly-CSharp
-        m_MethodName: SetVolume
-        m_Mode: 4
+        m_MethodName: UnmuteGroup
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 1
-          m_StringArgument: 
+          m_StringArgument: MasterVolume
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &411467050
@@ -732,6 +732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainMenu: {fileID: 1454439010}
   settingsMenu: {fileID: 1625650319}
+  mainMixer: {fileID: 24100000, guid: 11d7b38664b17ae44bee0f07c6e6bbf8, type: 2}
 --- !u!82 &413202225
 AudioSource:
   m_ObjectHideFlags: 0
@@ -741,7 +742,7 @@ AudioSource:
   m_GameObject: {fileID: 413202219}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2626498802988392980, guid: 11d7b38664b17ae44bee0f07c6e6bbf8, type: 2}
   m_audioClip: {fileID: 8300000, guid: cf02a457b27e0a24caf85602ef3d8d96, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -1286,14 +1287,14 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 413202224}
         m_TargetAssemblyTypeName: MenuToggles, Assembly-CSharp
-        m_MethodName: SetVolume
-        m_Mode: 4
+        m_MethodName: MuteGroup
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: MasterVolume
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1208012483
