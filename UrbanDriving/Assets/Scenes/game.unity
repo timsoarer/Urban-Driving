@@ -488,6 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 973aaf1445ffa9e4d888588e02f5b352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TEST_SPEED: 5
   carTires:
   - transform: {fileID: 618025396}
     isSteerable: 1
@@ -504,7 +505,49 @@ MonoBehaviour:
   springStrength: 100
   damping: 4
   restDistance: 0.25
-  placeholderVariable1: 0
+  tireGripCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0034146644
+      value: 0.5394455
+      inSlope: -0.059160225
+      outSlope: -0.059160225
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.18530856
+    - serializedVersion: 3
+      time: 0.37618184
+      value: 0.4544733
+      inSlope: -0.31736735
+      outSlope: -0.31736735
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.16611163
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5802682
+      value: 0.13046832
+      inSlope: -0.13368294
+      outSlope: -0.13368294
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.35267368
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0020752
+      value: 0.10751724
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  tireRotationAngle: 45
   placeholderVariable2: 0
 --- !u!54 &501541243
 Rigidbody:
@@ -1629,8 +1672,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1265502207}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.050589226, y: 0.75290775, z: -0.058279023, w: 0.65358573}
-  m_LocalPosition: {x: -3.7830257, y: 1.6114397, z: 1.0403595}
+  m_LocalRotation: {x: 0.19522987, y: 0.48156276, z: -0.1109785, w: 0.84715194}
+  m_LocalPosition: {x: -14.930062, y: 7.5160575, z: -7.6893616}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

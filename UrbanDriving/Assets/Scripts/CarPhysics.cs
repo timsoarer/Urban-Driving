@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [Serializable]
 struct Tire
@@ -15,6 +16,7 @@ struct Tire
 [RequireComponent(typeof(Rigidbody))]
 public class CarPhysics : MonoBehaviour
 {
+    public float TEST_SPEED = 30f;
     private Rigidbody carRigidbody;
     // Array of tires that will steer left/right
     [SerializeField]
@@ -31,7 +33,9 @@ public class CarPhysics : MonoBehaviour
 
     [Header("Steering Force Parameters")]
     [SerializeField]
-    private float placeholderVariable1;
+    private AnimationCurve tireGripCurve;
+    [SerializeField]
+    private float tireRotationAngle;
 
     [Header("Acceleration Force Parameters")]
     [SerializeField]
@@ -48,22 +52,63 @@ public class CarPhysics : MonoBehaviour
     {
         foreach(Tire tire in carTires)
         {
-            Vector3 totalForce = Vector3.zero;
-            totalForce += CalculateSuspensionForce(tire.transform);
-            carRigidbody.AddForceAtPosition(totalForce, tire.transform.position);
+            carRigidbody.AddForceAtPosition(CalculateForces(tire.transform), tire.transform.position);
+            
+            // Temporary placeholder code
+            if (tire.isMotor) {
+                if (Input.GetKey(KeyCode.W))
+                {
+                    carRigidbody.AddForceAtPosition(TEST_SPEED * tire.transform.forward, tire.transform.position);
+                }
+                else if (Input.GetKey(KeyCode.S))
+                {
+                    carRigidbody.AddForceAtPosition(-TEST_SPEED * tire.transform.forward, tire.transform.position);
+                }
+            }
+            if (tire.isSteerable)
+            {
+                if (Input.GetKey(KeyCode.A))
+                {
+                    tire.transform.eulerAngles = new Vector3(0f, -tireRotationAngle, 0f);
+                }
+                else if (Input.GetKey(KeyCode.D))
+                {
+                    tire.transform.eulerAngles = new Vector3(0f, tireRotationAngle, 0f);
+                }
+                else
+                {
+                    tire.transform.eulerAngles = Vector3.zero;
+                }
+            }
         }
     }
 
-    private Vector3 CalculateSuspensionForce(Transform tire)
+    private Vector3 CalculateForces(Transform tire)
     {
-        float force = 0.0f;
+        float suspensionForce = 0.0f;
+        float steeringForce = 0.0f;
         RaycastHit tireHit;
         if (Physics.Raycast(tire.position, -tire.up, out tireHit, restDistance))
         {
-            float tireVelocity = Vector3.Dot(carRigidbody.GetPointVelocity(tire.position), tire.up);
+            Vector3 tireWorldVelocity = carRigidbody.GetPointVelocity(tire.position);
+            Vector3 tireRelativeVelocity = new Vector3(
+                Vector3.Dot(tireWorldVelocity, tire.right),
+                Vector3.Dot(tireWorldVelocity, tire.up),
+                Vector3.Dot(tireWorldVelocity, tire.forward));
+
             float offset = restDistance - tireHit.distance;
-            force = (offset * springStrength) - (tireVelocity * damping);
+            suspensionForce = (offset * springStrength) - (tireRelativeVelocity.y * damping);
+            steeringForce = -tireRelativeVelocity.x * GetTireGrip(tireRelativeVelocity);
         }
-        return force * tire.up;
+        return suspensionForce * tire.up + steeringForce * tire.right;
+    }
+
+    private float GetTireGrip(Vector3 relativeVelocity)
+    {
+        Vector3 horizontalVelocity = new Vector3(relativeVelocity.x, 0f, relativeVelocity.z);
+        if (horizontalVelocity.magnitude < 0.0001f) return 0f;
+
+        float relativeDrift = relativeVelocity.x / horizontalVelocity.magnitude;
+        return Math.Clamp(tireGripCurve.Evaluate(relativeDrift), 0.0f, 1.0f);
     }
 }
