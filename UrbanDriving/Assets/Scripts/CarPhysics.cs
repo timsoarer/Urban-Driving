@@ -16,11 +16,8 @@ struct Tire
 [RequireComponent(typeof(Rigidbody))]
 public class CarPhysics : MonoBehaviour
 {
-    public float TEST_SPEED = 30f;
     private Rigidbody carRigidbody;
-    // Array of tires that will steer left/right
     [SerializeField]
-    // Array of tires that will provide acceleration force for the car
     private Tire[] carTires;
     
     [Header("Suspension Force Parameters")]
@@ -41,7 +38,9 @@ public class CarPhysics : MonoBehaviour
 
     [Header("Acceleration Force Parameters")]
     [SerializeField]
-    private float tireFriction = 0.5f;
+    private float axialFriction = 0.5f;
+    [SerializeField]
+    private float accelerationForce = 10f;
 
     // Start is called before the first frame update
     void Start()
@@ -60,11 +59,11 @@ public class CarPhysics : MonoBehaviour
             if (tire.isMotor) {
                 if (Input.GetKey(KeyCode.W))
                 {
-                    carRigidbody.AddForceAtPosition(TEST_SPEED * tire.transform.forward, tire.transform.position);
+                    carRigidbody.AddForceAtPosition(accelerationForce * tire.transform.forward, tire.transform.position);
                 }
                 else if (Input.GetKey(KeyCode.S))
                 {
-                    carRigidbody.AddForceAtPosition(-TEST_SPEED * tire.transform.forward, tire.transform.position);
+                    carRigidbody.AddForceAtPosition(-accelerationForce * tire.transform.forward, tire.transform.position);
                 }
             }
             if (tire.isSteerable)
@@ -102,7 +101,7 @@ public class CarPhysics : MonoBehaviour
             float offset = restDistance - tireHit.distance;
             suspensionForce = (offset * springStrength) - (tireRelativeVelocity.y * damping);
             steeringForce = -tireRelativeVelocity.x * GetTireGrip(tireRelativeVelocity) * steeringStrengthCoefficient;
-            frictionForce = -tireRelativeVelocity.z * tireFriction;
+            frictionForce = -tireRelativeVelocity.z * axialFriction;
         }
         return suspensionForce * tire.up + steeringForce * tire.right + frictionForce * tire.forward;
     }
