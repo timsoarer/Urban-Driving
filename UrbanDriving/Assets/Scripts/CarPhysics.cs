@@ -36,10 +36,12 @@ public class CarPhysics : MonoBehaviour
     private AnimationCurve tireGripCurve;
     [SerializeField]
     private float tireRotationAngle;
+    [SerializeField]
+    private float steeringStrengthCoefficient = 1.0f;
 
     [Header("Acceleration Force Parameters")]
     [SerializeField]
-    private float placeholderVariable2;
+    private float tireFriction = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -69,15 +71,15 @@ public class CarPhysics : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.A))
                 {
-                    tire.transform.eulerAngles = new Vector3(0f, -tireRotationAngle, 0f);
+                    tire.transform.localEulerAngles = new Vector3(0f, tireRotationAngle, 0f);
                 }
                 else if (Input.GetKey(KeyCode.D))
                 {
-                    tire.transform.eulerAngles = new Vector3(0f, tireRotationAngle, 0f);
+                    tire.transform.localEulerAngles = new Vector3(0f, -tireRotationAngle, 0f);
                 }
                 else
                 {
-                    tire.transform.eulerAngles = Vector3.zero;
+                    tire.transform.localEulerAngles = Vector3.zero;
                 }
             }
         }
@@ -87,6 +89,7 @@ public class CarPhysics : MonoBehaviour
     {
         float suspensionForce = 0.0f;
         float steeringForce = 0.0f;
+        float frictionForce = 0.0f;
         RaycastHit tireHit;
         if (Physics.Raycast(tire.position, -tire.up, out tireHit, restDistance))
         {
@@ -98,9 +101,10 @@ public class CarPhysics : MonoBehaviour
 
             float offset = restDistance - tireHit.distance;
             suspensionForce = (offset * springStrength) - (tireRelativeVelocity.y * damping);
-            steeringForce = -tireRelativeVelocity.x * GetTireGrip(tireRelativeVelocity);
+            steeringForce = -tireRelativeVelocity.x * GetTireGrip(tireRelativeVelocity) * steeringStrengthCoefficient;
+            frictionForce = -tireRelativeVelocity.z * tireFriction;
         }
-        return suspensionForce * tire.up + steeringForce * tire.right;
+        return suspensionForce * tire.up + steeringForce * tire.right + frictionForce * tire.forward;
     }
 
     private float GetTireGrip(Vector3 relativeVelocity)
@@ -108,7 +112,7 @@ public class CarPhysics : MonoBehaviour
         Vector3 horizontalVelocity = new Vector3(relativeVelocity.x, 0f, relativeVelocity.z);
         if (horizontalVelocity.magnitude < 0.0001f) return 0f;
 
-        float relativeDrift = relativeVelocity.x / horizontalVelocity.magnitude;
+        float relativeDrift = Math.Abs(relativeVelocity.x) / horizontalVelocity.magnitude;
         return Math.Clamp(tireGripCurve.Evaluate(relativeDrift), 0.0f, 1.0f);
     }
 }

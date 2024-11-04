@@ -488,7 +488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 973aaf1445ffa9e4d888588e02f5b352, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TEST_SPEED: 5
+  TEST_SPEED: 10
   carTires:
   - transform: {fileID: 618025396}
     isSteerable: 1
@@ -509,8 +509,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: -0.0034146644
-      value: 0.5394455
+      time: -0.009224448
+      value: 1.0513855
       inSlope: -0.059160225
       outSlope: -0.059160225
       tangentMode: 0
@@ -518,8 +518,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0.18530856
     - serializedVersion: 3
-      time: 0.37618184
-      value: 0.4544733
+      time: 0.43996358
+      value: 1.0530756
       inSlope: -0.31736735
       outSlope: -0.31736735
       tangentMode: 0
@@ -527,8 +527,8 @@ MonoBehaviour:
       inWeight: 0.16611163
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.5802682
-      value: 0.13046832
+      time: 0.87427455
+      value: 1.0644741
       inSlope: -0.13368294
       outSlope: -0.13368294
       tangentMode: 0
@@ -536,8 +536,8 @@ MonoBehaviour:
       inWeight: 0.35267368
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 1.0020752
-      value: 0.10751724
+      time: 1.1125183
+      value: 1.0287209
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -547,8 +547,9 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  tireRotationAngle: 45
-  placeholderVariable2: 0
+  tireRotationAngle: 70
+  steeringStrengthCoefficient: 1.5
+  tireFriction: 0.5
 --- !u!54 &501541243
 Rigidbody:
   m_ObjectHideFlags: 0
