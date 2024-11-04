@@ -70,11 +70,11 @@ public class CarPhysics : MonoBehaviour
             {
                 if (Input.GetKey(KeyCode.A))
                 {
-                    tire.transform.localEulerAngles = new Vector3(0f, tireRotationAngle, 0f);
+                    tire.transform.localEulerAngles = new Vector3(0f, -tireRotationAngle, 0f);
                 }
                 else if (Input.GetKey(KeyCode.D))
                 {
-                    tire.transform.localEulerAngles = new Vector3(0f, -tireRotationAngle, 0f);
+                    tire.transform.localEulerAngles = new Vector3(0f, tireRotationAngle, 0f);
                 }
                 else
                 {
