@@ -14,13 +14,17 @@ struct Tire
 }
 
 [RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(CarController))]
 public class CarPhysics : MonoBehaviour
 {
     private Rigidbody carRigidbody;
+    private CarController carController;
     [SerializeField]
     private Tire[] carTires;
     
     [Header("Suspension Force Parameters")]
+    [SerializeField]
+    bool enableSuspensionForce = true;
     [SerializeField]
     private float springStrength;
     [SerializeField]
@@ -30,6 +34,8 @@ public class CarPhysics : MonoBehaviour
 
     [Header("Steering Force Parameters")]
     [SerializeField]
+    bool enableSteeringForce = true;
+    [SerializeField]
     private AnimationCurve tireGripCurve;
     [SerializeField]
     private float tireRotationAngle;
@@ -37,6 +43,8 @@ public class CarPhysics : MonoBehaviour
     private float steeringStrengthCoefficient = 1.0f;
 
     [Header("Acceleration Force Parameters")]
+    [SerializeField]
+    bool enableAccelerationForce = true;
     [SerializeField]
     private float axialFriction = 0.5f;
     [SerializeField]
@@ -46,6 +54,7 @@ public class CarPhysics : MonoBehaviour
     void Start()
     {
         carRigidbody = GetComponent<Rigidbody>();
+        carController = GetComponent<CarController>();
     }
 
     // FixedUpdate is called at fixed intervals
@@ -57,29 +66,11 @@ public class CarPhysics : MonoBehaviour
             
             // Temporary placeholder code
             if (tire.isMotor) {
-                if (Input.GetKey(KeyCode.W))
-                {
-                    carRigidbody.AddForceAtPosition(accelerationForce * tire.transform.forward, tire.transform.position);
-                }
-                else if (Input.GetKey(KeyCode.S))
-                {
-                    carRigidbody.AddForceAtPosition(-accelerationForce * tire.transform.forward, tire.transform.position);
-                }
+                carRigidbody.AddForceAtPosition(accelerationForce * carController.GetGasValue() * tire.transform.forward, tire.transform.position);
             }
             if (tire.isSteerable)
             {
-                if (Input.GetKey(KeyCode.A))
-                {
-                    tire.transform.localEulerAngles = new Vector3(0f, -tireRotationAngle, 0f);
-                }
-                else if (Input.GetKey(KeyCode.D))
-                {
-                    tire.transform.localEulerAngles = new Vector3(0f, tireRotationAngle, 0f);
-                }
-                else
-                {
-                    tire.transform.localEulerAngles = Vector3.zero;
-                }
+                tire.transform.localEulerAngles = new Vector3(0f, tireRotationAngle * carController.GetWheelRelativeTurn(), 0f);
             }
         }
     }
@@ -103,7 +94,13 @@ public class CarPhysics : MonoBehaviour
             steeringForce = -tireRelativeVelocity.x * GetTireGrip(tireRelativeVelocity) * steeringStrengthCoefficient;
             frictionForce = -tireRelativeVelocity.z * axialFriction;
         }
-        return suspensionForce * tire.up + steeringForce * tire.right + frictionForce * tire.forward;
+
+        Vector3 totalForce = Vector3.zero;
+        if (enableSuspensionForce) totalForce += suspensionForce * tire.up;
+        if (enableSteeringForce) totalForce += steeringForce * tire.right;
+        if (enableAccelerationForce) totalForce += frictionForce * tire.forward;
+
+        return totalForce;
     }
 
     private float GetTireGrip(Vector3 relativeVelocity)
