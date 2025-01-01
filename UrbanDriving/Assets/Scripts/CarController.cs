@@ -11,17 +11,17 @@ public class CarController : MonoBehaviour
     [SerializeField]
     private XRKnob wheelKnob;
     [SerializeField]
-    private InputActionReference leftHandTrigger;
+    private InputActionReference gasPedal;
     [SerializeField]
-    private InputActionReference rightHandTrigger;
-    [SerializeField]
-    private float steerTurnLimit = 150.0f;
-    [SerializeField]
+    private InputActionReference wheelTurn;
+    
     private bool isInVR = false;
     private float wheelAngle;
 
     void Awake()
     {
+        isInVR = UnityEngine.XR.XRSettings.enabled;
+        Debug.Log(isInVR);
         if (!isInVR)
         {
             wheelAngle = steeringWheel.localEulerAngles.x;
@@ -39,39 +39,17 @@ public class CarController : MonoBehaviour
     {
         if (!isInVR)
         {
-            if (Input.GetKey(KeyCode.A))
-            {
-                steeringWheel.localEulerAngles = new Vector3(wheelAngle, 0f, -steerTurnLimit);
-            }
-            else if (Input.GetKey(KeyCode.D))
-            {
-                steeringWheel.localEulerAngles = new Vector3(wheelAngle, 0f, steerTurnLimit);
-            }
-            else
-            {
-                steeringWheel.localEulerAngles = new Vector3(wheelAngle, 0f, 0f);
-            }
+            wheelKnob.value = (wheelTurn.action.ReadValue<float>() + 1.0f) / 2;
         }
     }
 
     public float GetWheelRelativeTurn()
     {
-        if (!isInVR)
-        {
-            if (steeringWheel.localEulerAngles.z > 180f)
-            {
-                return (steeringWheel.localEulerAngles.z -360f) / steerTurnLimit;
-            }
-            return steeringWheel.localEulerAngles.z / steerTurnLimit;
-        }
-        else
-        {
-            return (wheelKnob.value - 0.5f) * 2;
-        }
+        return (wheelKnob.value - 0.5f) * 2;
     }
 
     public float GetGasValue()
     {
-        return rightHandTrigger.action.ReadValue<float>() - leftHandTrigger.action.ReadValue<float>();
+        return gasPedal.action.ReadValue<float>();
     }
 }
