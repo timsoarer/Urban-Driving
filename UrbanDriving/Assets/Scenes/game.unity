@@ -969,7 +969,6 @@ MonoBehaviour:
   wheelKnob: {fileID: 1966930335}
   gasPedal: {fileID: 6398678821623396951, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   wheelTurn: {fileID: -6240996045102080081, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  steerTurnLimit: 150
 --- !u!1 &618025395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,6 +1868,63 @@ Transform:
   - {fileID: 6542410639022929257}
   m_Father: {fileID: 751877248}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1208844366
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: bb0fe19f9ac39f24c9b2c7f6d75fba10, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.1703367
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb0fe19f9ac39f24c9b2c7f6d75fba10, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.086813
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb0fe19f9ac39f24c9b2c7f6d75fba10, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -27.505512
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb0fe19f9ac39f24c9b2c7f6d75fba10, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb0fe19f9ac39f24c9b2c7f6d75fba10, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb0fe19f9ac39f24c9b2c7f6d75fba10, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb0fe19f9ac39f24c9b2c7f6d75fba10, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb0fe19f9ac39f24c9b2c7f6d75fba10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb0fe19f9ac39f24c9b2c7f6d75fba10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bb0fe19f9ac39f24c9b2c7f6d75fba10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bb0fe19f9ac39f24c9b2c7f6d75fba10, type: 3}
+      propertyPath: m_Name
+      value: russRoadPack
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb0fe19f9ac39f24c9b2c7f6d75fba10, type: 3}
 --- !u!1 &1401912779
 GameObject:
   m_ObjectHideFlags: 0
@@ -2506,6 +2562,37 @@ MonoBehaviour:
   m_OnValueChange:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1981665028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1981665029}
+  m_Layer: 0
+  m_Name: FlatRoads
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1981665029
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981665028}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.1703367, y: 5.086813, z: -27.505512}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2087693418
 GameObject:
   m_ObjectHideFlags: 0
@@ -3227,3 +3314,5 @@ SceneRoots:
   - {fileID: 501541241}
   - {fileID: 1516012956}
   - {fileID: 1083460154}
+  - {fileID: 1981665029}
+  - {fileID: 1208844366}
