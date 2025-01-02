@@ -5,6 +5,8 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+// A wheel can either be used to propel the car forward (motor), to steer the car (steerable), neither or both.
+// Used to configure all-wheel drive, front-wheel drive and back-wheel drive vehicles
 [Serializable]
 struct Tire
 {
@@ -22,6 +24,7 @@ public class CarPhysics : MonoBehaviour
     [SerializeField]
     private Tire[] carTires;
     
+    // Suspension force is the vertical force of the wheel bouncing of the ground
     [Header("Suspension Force Parameters")]
     [SerializeField]
     bool enableSuspensionForce = true;
@@ -29,9 +32,12 @@ public class CarPhysics : MonoBehaviour
     private float springStrength;
     [SerializeField]
     private float damping;
+    // The distance at which the spring will be in its resting position
+    // (calculated in-game as the distance between the bottom of the car's hull and bottom of the wheel)
     [SerializeField]
     private float restDistance = 0.0f;
 
+    // Lateral force of the wheels sliding against the ground
     [Header("Steering Force Parameters")]
     [SerializeField]
     bool enableSteeringForce = true;
@@ -42,6 +48,7 @@ public class CarPhysics : MonoBehaviour
     [SerializeField]
     private float steeringStrengthCoefficient = 1.0f;
 
+    // Axial force of the wheels gripping the ground as they rotate
     [Header("Acceleration Force Parameters")]
     [SerializeField]
     bool enableAccelerationForce = true;
@@ -60,14 +67,16 @@ public class CarPhysics : MonoBehaviour
     // FixedUpdate is called at fixed intervals
     void FixedUpdate()
     {
+        // Calculates the forces to be applied at next physics calculation
         foreach(Tire tire in carTires)
         {
             carRigidbody.AddForceAtPosition(CalculateForces(tire.transform), tire.transform.position);
             
-            // Temporary placeholder code
+            // If the wheel is a motor wheel, add an acceleration force equal to the strength of the gas pedal
             if (tire.isMotor) {
                 carRigidbody.AddForceAtPosition(accelerationForce * carController.GetGasValue() * tire.transform.forward, tire.transform.position);
             }
+            // If the wheel is a steerable wheel, rotate it at an angle proportional to the steering wheel's rotation
             if (tire.isSteerable)
             {
                 tire.transform.localEulerAngles = new Vector3(0f, tireRotationAngle * carController.GetWheelRelativeTurn(), 0f);
