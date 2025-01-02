@@ -922,7 +922,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   tireRotationAngle: 25
-  steeringStrengthCoefficient: 9000
+  steeringStrengthCoefficient: 6000
   enableAccelerationForce: 1
   axialFriction: 300
   accelerationForce: 6000
@@ -967,10 +967,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steeringWheel: {fileID: 2626790061846938065}
   wheelKnob: {fileID: 1966930335}
-  leftHandTrigger: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  rightHandTrigger: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  gasPedal: {fileID: 6398678821623396951, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  wheelTurn: {fileID: -6240996045102080081, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   steerTurnLimit: 150
-  isInVR: 1
 --- !u!1 &618025395
 GameObject:
   m_ObjectHideFlags: 0
