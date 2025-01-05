@@ -12,6 +12,8 @@ public class CarController : MonoBehaviour
     [SerializeField]
     private InputActionReference gasPedal;
     [SerializeField]
+    private InputActionReference brakePedal;
+    [SerializeField]
     private InputActionReference wheelTurn;
     
     private bool isInVR = false;
@@ -19,7 +21,6 @@ public class CarController : MonoBehaviour
     void Awake()
     {
         isInVR = UnityEngine.XR.XRSettings.enabled;
-        Debug.Log(isInVR);
     }
 
     // Start is called before the first frame update
@@ -29,12 +30,12 @@ public class CarController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // Set the wheel rotation via buttons only when not in VR.
         if (!isInVR)
         {
-            wheelKnob.value = (wheelTurn.action.ReadValue<float>() + 1.0f) / 2;
+            wheelKnob.value = Mathf.Lerp(wheelKnob.value, (wheelTurn.action.ReadValue<float>() + 1.0f) / 2, 0.1f);
         }
     }
 
@@ -48,5 +49,10 @@ public class CarController : MonoBehaviour
     public float GetGasValue()
     {
         return gasPedal.action.ReadValue<float>();
+    }
+
+    public float GetBrakeValue()
+    {
+        return brakePedal.action.ReadValue<float>();
     }
 }

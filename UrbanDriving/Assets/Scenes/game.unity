@@ -6269,13 +6269,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2366186380892549398, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2655633536057078771, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2655633536057078771, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.17
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 2655633536057078771, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6425,6 +6429,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: DrivableCar
       objectReference: {fileID: 0}
+    - target: {fileID: 4841942487812057013, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: brakeForce
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841942487812057013, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: axialFriction
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841942487812057013, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: tireGripCurve.m_Curve.Array.data[2].time
+      value: 0.854255
+      objectReference: {fileID: 0}
+    - target: {fileID: 4841942487812057013, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: tireGripCurve.m_Curve.Array.data[2].value
+      value: 1.0632229
+      objectReference: {fileID: 0}
     - target: {fileID: 6249965676495540506, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
@@ -6507,6 +6527,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6249965677245756047, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278078352534743208, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: m_BackGroundColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278078352534743208, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278078352534743208, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278078352534743208, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388058634108228593, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388058634108228593, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388058634108228593, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388058634108228593, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7388058634108228593, guid: 4f1ff6645a8667349b58f2e597d5cb35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
