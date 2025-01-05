@@ -19,24 +19,6 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
---- !u!244 &-5992889067153708764
-AudioMixerEffectController:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_EffectID: d4a04d4837bdc7f4abb0ac52e7290168
-  m_EffectName: Highpass
-  m_MixLevel: 9a1c6fa54e13c9b4f8ce449321026a57
-  m_Parameters:
-  - m_ParameterName: Cutoff freq
-    m_GUID: 5ea8d0ce222fc76468ebcb5dd15f480a
-  - m_ParameterName: Resonance
-    m_GUID: 9a74d95b01940d543a58c022baf4f7f3
-  m_SendTarget: {fileID: 0}
-  m_EnableWetMix: 0
-  m_Bypass: 0
 --- !u!244 &-5019088443994476672
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -80,7 +62,6 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: -5019088443994476672}
-  - {fileID: -5992889067153708764}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0

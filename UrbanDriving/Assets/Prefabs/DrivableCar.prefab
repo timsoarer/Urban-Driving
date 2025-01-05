@@ -353,6 +353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7426093802375143448}
   - component: {fileID: 7350588113185709188}
+  - component: {fileID: 2115947172855790633}
   m_Layer: 0
   m_Name: EngineSoundMaker
   m_TagString: Untagged
@@ -471,6 +472,25 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2115947172855790633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2366186380892549398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 256d7b37b0f1dd04ea855d61f1c4764e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPhysics: {fileID: 4841942487812057013}
+  engineStallSound: {fileID: 8300000, guid: 40eb4a8d35e8b1b48a18ff187202b8dc, type: 3}
+  engineNormalSound: {fileID: 8300000, guid: 70f489c6b1cc1374b88500031f22a608, type: 3}
+  minRPM: 1.1
+  maxRPM: 9
+  minPitch: 0.5
+  maxPitch: 1.5
 --- !u!1 &2422422987820474018
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,7 +857,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   tireRotationAngle: 25
-  steeringStrengthCoefficient: 6000
+  steeringStrengthCoefficient: 4000
   enableAxialForce: 1
   axialFriction: 100
 --- !u!54 &677364814849230081
@@ -1435,7 +1455,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7796997639324093521}
-  - component: {fileID: 4312801429241773526}
   m_Layer: 2
   m_Name: hyundai-accent-v2
   m_TagString: Untagged
@@ -1460,27 +1479,6 @@ Transform:
   - {fileID: 5689933577440622408}
   m_Father: {fileID: 2655633536057078771}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &4312801429241773526
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5292732946022675764}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.1055806, y: 1.5816816, z: 5.302904}
-  m_Center: {x: 0.0057781935, y: 0.9765318, z: 0.17912722}
 --- !u!1 &5546582528110071196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2094,6 +2092,7 @@ GameObject:
   - component: {fileID: 3643052891354012871}
   - component: {fileID: 2144610478978366542}
   - component: {fileID: 8220880696932974161}
+  - component: {fileID: 3607722119822372001}
   m_Layer: 0
   m_Name: Hull
   m_TagString: Untagged
@@ -2188,6 +2187,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &3607722119822372001
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8087424880134200838}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6989282167128152099, guid: 757fdfa3a18345545abdec9321d04f14, type: 3}
 --- !u!1 &8107887557590238349
 GameObject:
   m_ObjectHideFlags: 0

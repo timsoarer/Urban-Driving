@@ -96,6 +96,7 @@ public class CarPhysics : MonoBehaviour
     // FixedUpdate is called at fixed intervals
     void FixedUpdate()
     {
+        carRigidbody.WakeUp(); 
         targetRpm =  GetCarSpeed(false) / (wheelDiameter * (float)Math.PI * gearRatios[currentGear]);
         targetRpm = Mathf.Clamp(targetRpm, 0.0f, 10.0f);
         currentRpm = Mathf.Lerp(currentRpm, targetRpm, 0.3f);
@@ -103,7 +104,7 @@ public class CarPhysics : MonoBehaviour
         // Calculates the forces to be applied at next physics calculation
         foreach(Tire tire in carTires)
         {
-            carRigidbody.AddForceAtPosition(CalculateForces(tire, carController.GetGasValue(), carController.GetBrakeValue()), tire.transform.position + restDistance * Vector3.down);
+            carRigidbody.AddForceAtPosition(CalculateForces(tire, carController.GetGasValue(), carController.GetBrakeValue()), tire.transform.position);
 
             // If the wheel is a steerable wheel, rotate it at an angle proportional to the steering wheel's rotation
             if (tire.isSteerable)
@@ -192,6 +193,11 @@ public class CarPhysics : MonoBehaviour
         {
             return carRigidbody.velocity.magnitude;
         }
+    }
+
+    public float GetWheelSpeed()
+    {
+        return 0.0f;
     }
 
     public AutomaticGear GetAutomaticGear()

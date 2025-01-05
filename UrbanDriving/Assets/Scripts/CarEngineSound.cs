@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
@@ -28,19 +29,40 @@ public class CarEngineSound : MonoBehaviour
     [SerializeField]
     private float maxPitch;
 
+    private float rpm;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        soundSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (carPhysics.GetRPM() < minRPM)
+        rpm = carPhysics.GetRPM();
+        if (rpm < minRPM)
         {
-            soundSource.clip = engineStallSound;
-            
+            SetAndPlay(engineStallSound);
+            soundSource.pitch = 1.0f;
+        }
+        else if (rpm > minRPM && rpm < maxRPM)
+        {
+            SetAndPlay(engineNormalSound);
+            soundSource.pitch = minPitch + ((rpm - minRPM) / (maxRPM - minRPM)) * (maxPitch - minPitch);
+        }
+        else
+        {
+            soundSource.pitch = maxPitch;
+        }
+    }
+
+    private void SetAndPlay(AudioClip clip)
+    {
+        if (soundSource.clip != clip)
+        {
+            soundSource.clip = clip;
+            soundSource.Play();
         }
     }
 }
