@@ -190,6 +190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e316f075d2d584c46a1b2265a60c55bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -211,6 +215,10 @@ PrefabInstance:
     - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_Name
       value: 2Lane-Line (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6713538069866167926, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -274,6 +282,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adjacent-1Lane4Lane
       objectReference: {fileID: 0}
+    - target: {fileID: 5835300128329039050, guid: b0d3ad74e17479441b24da8a92f8af2a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9076788095222911402, guid: b0d3ad74e17479441b24da8a92f8af2a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 128.8
@@ -335,6 +347,10 @@ PrefabInstance:
     - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_Name
       value: 2Lane-DashLine-Drainage (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1557124209727389597, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -438,6 +454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4Lane-DashLine-Parking
       objectReference: {fileID: 0}
+    - target: {fileID: 5167364821905390433, guid: 7f5b10d6574f12442a052da90172057d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -459,6 +479,10 @@ PrefabInstance:
     - target: {fileID: 2953316039792916447, guid: 2c68d87a340d10a4c9f531b4bee8239d, type: 3}
       propertyPath: m_Name
       value: 1Lane-Parking
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953316039792916447, guid: 2c68d87a340d10a4c9f531b4bee8239d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8764159958769537151, guid: 2c68d87a340d10a4c9f531b4bee8239d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -562,6 +586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4684479042011249001, guid: 1c00c91008b709945b839a765508f615, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -583,6 +611,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -766,6 +798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1Lane (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 43.6
@@ -827,6 +863,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -894,7 +934,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!23 &292710910
 MeshRenderer:
@@ -1096,6 +1136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1Lane (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 91.6
@@ -1158,6 +1202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine-Drainage
       objectReference: {fileID: 0}
+    - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1557124209727389597, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 65.6
@@ -1219,6 +1267,10 @@ PrefabInstance:
     - target: {fileID: 617859135632534211, guid: a19ded4d72ee9dc46b9bb0de506f9174, type: 3}
       propertyPath: m_Name
       value: Intersection-2Lane2Lane
+      objectReference: {fileID: 0}
+    - target: {fileID: 617859135632534211, guid: a19ded4d72ee9dc46b9bb0de506f9174, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1669971988050962776, guid: a19ded4d72ee9dc46b9bb0de506f9174, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1322,6 +1374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adjacent-1Lane2Lane-DashLine (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8011852449240114542, guid: 4348b2db165be0e4d9f5f4c6cdb48c44, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1343,6 +1399,10 @@ PrefabInstance:
     - target: {fileID: 2746084793518811762, guid: 7f7a0a1299f54a3489e8b0c897a1921d, type: 3}
       propertyPath: m_Name
       value: Xrushovka (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2746084793518811762, guid: 7f7a0a1299f54a3489e8b0c897a1921d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3267323315629994184, guid: 7f7a0a1299f54a3489e8b0c897a1921d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1406,6 +1466,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4Lane-DashLine (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8139416772161152933, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8224578196528222091, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
       propertyPath: m_LocalPosition.x
       value: 128.8
@@ -1467,6 +1531,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1569,6 +1637,10 @@ PrefabInstance:
     - target: {fileID: 5167364821905390433, guid: 7f5b10d6574f12442a052da90172057d, type: 3}
       propertyPath: m_Name
       value: 4Lane-DashLine-Parking (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5167364821905390433, guid: 7f5b10d6574f12442a052da90172057d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1711,6 +1783,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adjacent-2Lane2Lane (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3211535575149274156, guid: 0cd7e8e9e9811884ab87fda09eecccc5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1773,6 +1849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-Line-Parking
       objectReference: {fileID: 0}
+    - target: {fileID: 1552126025149287798, guid: 39f6c03bda7988b43812532d027355f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1794,6 +1874,10 @@ PrefabInstance:
     - target: {fileID: 1299479914978517801, guid: a0d64d36737e1b4408a0634aed3b3735, type: 3}
       propertyPath: m_Name
       value: 4Lane-DashLine-Drainage
+      objectReference: {fileID: 0}
+    - target: {fileID: 1299479914978517801, guid: a0d64d36737e1b4408a0634aed3b3735, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6764646139094875324, guid: a0d64d36737e1b4408a0634aed3b3735, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1857,6 +1941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine-Drainage (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1557124209727389597, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 83.6
@@ -1918,6 +2006,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1981,6 +2073,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stalinka (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4571776453809672436, guid: 3cab92580311e4a4eb29560afd08b47d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8133581023538836606, guid: 3cab92580311e4a4eb29560afd08b47d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -34.430008
@@ -2042,6 +2138,10 @@ PrefabInstance:
     - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_Name
       value: 2Lane-Line (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6713538069866167926, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2145,6 +2245,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4684479042011249001, guid: 1c00c91008b709945b839a765508f615, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2166,6 +2270,10 @@ PrefabInstance:
     - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_Name
       value: 2Lane-Line (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6713538069866167926, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2322,6 +2430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-Line (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6713538069866167926, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2383,6 +2495,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2490,6 +2606,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1Lane-Bend (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6337715377392978031, guid: 76780a3279f203341bc295dbeeb25b6b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2552,6 +2672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-Crossing
       objectReference: {fileID: 0}
+    - target: {fileID: 4930381066461503882, guid: aa0ca6eab9e9b7743915113530fb4b5d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2568,6 +2692,10 @@ PrefabInstance:
     - target: {fileID: 1630615169596639121, guid: 633ec79ebdf23c1449c2b7bc62fa119e, type: 3}
       propertyPath: m_Name
       value: 2Lane-DashLine-Parking
+      objectReference: {fileID: 0}
+    - target: {fileID: 1630615169596639121, guid: 633ec79ebdf23c1449c2b7bc62fa119e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9161792199854276938, guid: 633ec79ebdf23c1449c2b7bc62fa119e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2735,6 +2863,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4Lane-DashLine (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8139416772161152933, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8224578196528222091, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
       propertyPath: m_LocalPosition.x
       value: 128.8
@@ -2797,6 +2929,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Xrushovka (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2746084793518811762, guid: 7f7a0a1299f54a3489e8b0c897a1921d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3267323315629994184, guid: 7f7a0a1299f54a3489e8b0c897a1921d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 41.3
@@ -2858,6 +2994,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2961,6 +3101,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adjacent-1Lane2Lane-DashLine
       objectReference: {fileID: 0}
+    - target: {fileID: 8011852449240114542, guid: 4348b2db165be0e4d9f5f4c6cdb48c44, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2971,6 +3115,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4610005934587426589, guid: 4348b2db165be0e4d9f5f4c6cdb48c44, type: 3}
   m_PrefabInstance: {fileID: 856645838}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &860341945
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.19763608
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.372338
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00038345097
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd60458a935c62f4f8fb23f0b7d10c34, type: 2}
+    - target: {fileID: 919132149155446097, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
+      propertyPath: m_Name
+      value: TrafficLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c15fa9f4cd5f954b9f37df859e26a65, type: 3}
 --- !u!1001 &867865054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2982,6 +3191,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3050,6 +3263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine-Drainage (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1557124209727389597, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 59.6
@@ -3111,6 +3328,10 @@ PrefabInstance:
     - target: {fileID: 5835300128329039050, guid: b0d3ad74e17479441b24da8a92f8af2a, type: 3}
       propertyPath: m_Name
       value: Adjacent-1Lane4Lane (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835300128329039050, guid: b0d3ad74e17479441b24da8a92f8af2a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9076788095222911402, guid: b0d3ad74e17479441b24da8a92f8af2a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3249,6 +3470,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1Lane (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 32.4
@@ -3310,6 +3535,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3413,6 +3642,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1Lane-Bend (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6337715377392978031, guid: 76780a3279f203341bc295dbeeb25b6b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3434,6 +3667,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3497,6 +3734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-Line (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6713538069866167926, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3559,6 +3800,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stalinka (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4571776453809672436, guid: 3cab92580311e4a4eb29560afd08b47d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8133581023538836606, guid: 3cab92580311e4a4eb29560afd08b47d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -34.43
@@ -3620,6 +3865,10 @@ PrefabInstance:
     - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_Name
       value: 2Lane-DashLine-Drainage (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1557124209727389597, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3723,6 +3972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adjacent-2Lane4Lane
       objectReference: {fileID: 0}
+    - target: {fileID: 7261984277791893095, guid: d73736047aa898f468d0f3715b052f6d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3744,6 +3997,10 @@ PrefabInstance:
     - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_Name
       value: 2Lane-Line (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6713538069866167926, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3847,6 +4104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine
       objectReference: {fileID: 0}
+    - target: {fileID: 4684479042011249001, guid: 1c00c91008b709945b839a765508f615, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3868,6 +4129,10 @@ PrefabInstance:
     - target: {fileID: 4989312167119522337, guid: 3f6b3cc0b58bfa741a5808cb4a5288c5, type: 3}
       propertyPath: m_Name
       value: Adjacent-1Lane2Lane-Line
+      objectReference: {fileID: 0}
+    - target: {fileID: 4989312167119522337, guid: 3f6b3cc0b58bfa741a5808cb4a5288c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8275621549469913689, guid: 3f6b3cc0b58bfa741a5808cb4a5288c5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4051,6 +4316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adjacent-4Lane4Lane
       objectReference: {fileID: 0}
+    - target: {fileID: 4785387093644646930, guid: b3c5433bf640ed94dbd6188c5fba48b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5063895894268275810, guid: b3c5433bf640ed94dbd6188c5fba48b6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 107.6
@@ -4188,6 +4457,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-Line (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6713538069866167926, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0000009536743
@@ -4290,6 +4563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4684479042011249001, guid: 1c00c91008b709945b839a765508f615, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4351,6 +4628,10 @@ PrefabInstance:
     - target: {fileID: 4684479042011249001, guid: 1c00c91008b709945b839a765508f615, type: 3}
       propertyPath: m_Name
       value: 2Lane-DashLine (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4684479042011249001, guid: 1c00c91008b709945b839a765508f615, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4414,6 +4695,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-Crossing (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4930381066461503882, guid: aa0ca6eab9e9b7743915113530fb4b5d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4476,6 +4761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adjacent-2Lane4Lane
       objectReference: {fileID: 0}
+    - target: {fileID: 7261984277791893095, guid: d73736047aa898f468d0f3715b052f6d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4497,6 +4786,10 @@ PrefabInstance:
     - target: {fileID: 2819713604077985090, guid: 5f88a68fe11e5b240bd804eca8024dcb, type: 3}
       propertyPath: m_Name
       value: Intersection-2Lane4Lane
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819713604077985090, guid: 5f88a68fe11e5b240bd804eca8024dcb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8020922053708758750, guid: 5f88a68fe11e5b240bd804eca8024dcb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4600,6 +4893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1Lane-Bend (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6337715377392978031, guid: 76780a3279f203341bc295dbeeb25b6b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4621,6 +4918,10 @@ PrefabInstance:
     - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_Name
       value: 2Lane-Line (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6713538069866167926, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4683,6 +4984,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4748,7 +5053,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1340175597
 Transform:
@@ -4780,6 +5085,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4843,6 +5152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1Lane (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 103.6
@@ -4904,6 +5217,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5007,6 +5324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adjacent-2Lane2Lane
       objectReference: {fileID: 0}
+    - target: {fileID: 3211535575149274156, guid: 0cd7e8e9e9811884ab87fda09eecccc5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5028,6 +5349,10 @@ PrefabInstance:
     - target: {fileID: 1854334161140933323, guid: 5d1a08439d5d6ff46a99b37273bd1a90, type: 3}
       propertyPath: m_Name
       value: 2Lane-Line-Drainage
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854334161140933323, guid: 5d1a08439d5d6ff46a99b37273bd1a90, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3679048884923828176, guid: 5d1a08439d5d6ff46a99b37273bd1a90, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5090,6 +5415,10 @@ PrefabInstance:
     - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_Name
       value: 2Lane-Line
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6713538069866167926, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5193,6 +5522,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4684479042011249001, guid: 1c00c91008b709945b839a765508f615, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5214,6 +5547,10 @@ PrefabInstance:
     - target: {fileID: 1854334161140933323, guid: 5d1a08439d5d6ff46a99b37273bd1a90, type: 3}
       propertyPath: m_Name
       value: 2Lane-Line-Drainage (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854334161140933323, guid: 5d1a08439d5d6ff46a99b37273bd1a90, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3679048884923828176, guid: 5d1a08439d5d6ff46a99b37273bd1a90, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5281,6 +5618,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4571776453809672436, guid: 3cab92580311e4a4eb29560afd08b47d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8133581023538836606, guid: 3cab92580311e4a4eb29560afd08b47d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 105.1
@@ -5342,6 +5683,10 @@ PrefabInstance:
     - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_Name
       value: 2Lane-DashLine-Drainage (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1557124209727389597, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5405,6 +5750,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4Lane-DashLine
       objectReference: {fileID: 0}
+    - target: {fileID: 8139416772161152933, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8224578196528222091, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
       propertyPath: m_LocalPosition.x
       value: 128.8
@@ -5467,6 +5816,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1Lane (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 79.6
@@ -5528,6 +5881,10 @@ PrefabInstance:
     - target: {fileID: 8139416772161152933, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
       propertyPath: m_Name
       value: 4Lane-DashLine (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8139416772161152933, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8224578196528222091, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5596,6 +5953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine-Drainage (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1557124209727389597, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 35.6
@@ -5654,9 +6015,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1340175597}
     m_Modifications:
+    - target: {fileID: 301594632387955983, guid: f108668489391ee42be165ce663f8e5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1856329389177569423, guid: f108668489391ee42be165ce663f8e5a, type: 3}
       propertyPath: m_Name
       value: CrossingSign (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856329389177569423, guid: f108668489391ee42be165ce663f8e5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4561191695504286820, guid: f108668489391ee42be165ce663f8e5a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5719,6 +6088,10 @@ PrefabInstance:
     - target: {fileID: 4571776453809672436, guid: 3cab92580311e4a4eb29560afd08b47d, type: 3}
       propertyPath: m_Name
       value: Stalinka (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571776453809672436, guid: 3cab92580311e4a4eb29560afd08b47d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8133581023538836606, guid: 3cab92580311e4a4eb29560afd08b47d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5819,6 +6192,10 @@ PrefabInstance:
     - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_Name
       value: 2Lane-Line
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6713538069866167926, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6046,6 +6423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1Lane-Bend
       objectReference: {fileID: 0}
+    - target: {fileID: 6337715377392978031, guid: 76780a3279f203341bc295dbeeb25b6b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6108,6 +6489,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4684479042011249001, guid: 1c00c91008b709945b839a765508f615, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6132,7 +6517,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1852440913
 Transform:
@@ -6171,6 +6556,10 @@ PrefabInstance:
     - target: {fileID: 2746084793518811762, guid: 7f7a0a1299f54a3489e8b0c897a1921d, type: 3}
       propertyPath: m_Name
       value: Xrushovka
+      objectReference: {fileID: 0}
+    - target: {fileID: 2746084793518811762, guid: 7f7a0a1299f54a3489e8b0c897a1921d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3267323315629994184, guid: 7f7a0a1299f54a3489e8b0c897a1921d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6233,6 +6622,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6301,7 +6694,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1912755074
 Transform:
@@ -6400,6 +6793,10 @@ PrefabInstance:
     - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_Name
       value: 2Lane-DashLine-Drainage (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1557124209727389597, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6503,6 +6900,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4684479042011249001, guid: 1c00c91008b709945b839a765508f615, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6527,7 +6928,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1981665029
 Transform:
@@ -6637,6 +7038,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6793,6 +7198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1Lane (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
       value: 91.600006
@@ -6851,9 +7260,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1340175597}
     m_Modifications:
+    - target: {fileID: 301594632387955983, guid: f108668489391ee42be165ce663f8e5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1856329389177569423, guid: f108668489391ee42be165ce663f8e5a, type: 3}
       propertyPath: m_Name
       value: CrossingSign (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856329389177569423, guid: f108668489391ee42be165ce663f8e5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4561191695504286820, guid: f108668489391ee42be165ce663f8e5a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6957,6 +7374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4684479042011249001, guid: 1c00c91008b709945b839a765508f615, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6978,6 +7399,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7081,6 +7506,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4684479042011249001, guid: 1c00c91008b709945b839a765508f615, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7102,6 +7531,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7164,6 +7597,10 @@ PrefabInstance:
     - target: {fileID: 8139416772161152933, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
       propertyPath: m_Name
       value: 4Lane-DashLine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8139416772161152933, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8224578196528222091, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7267,6 +7704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4684479042011249001, guid: 1c00c91008b709945b839a765508f615, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7288,6 +7729,10 @@ PrefabInstance:
     - target: {fileID: 4785387093644646930, guid: b3c5433bf640ed94dbd6188c5fba48b6, type: 3}
       propertyPath: m_Name
       value: Adjacent-4Lane4Lane
+      objectReference: {fileID: 0}
+    - target: {fileID: 4785387093644646930, guid: b3c5433bf640ed94dbd6188c5fba48b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5063895894268275810, guid: b3c5433bf640ed94dbd6188c5fba48b6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7350,7 +7795,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!23 &139866098478533374
 MeshRenderer:
@@ -7426,7 +7871,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &208588626931027103
 GameObject:
@@ -7444,7 +7889,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &219356618131779881
 GameObject:
@@ -7462,7 +7907,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!23 &435672083318807272
 MeshRenderer:
@@ -7523,7 +7968,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &444304340712708913
 Transform:
@@ -7571,7 +8016,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!23 &502538059610391846
 MeshRenderer:
@@ -7723,6 +8168,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adjacent-2Lane2Lane
       objectReference: {fileID: 0}
+    - target: {fileID: 3211535575149274156, guid: 0cd7e8e9e9811884ab87fda09eecccc5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7744,7 +8193,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &648813601023815235
 Transform:
@@ -7772,6 +8221,10 @@ PrefabInstance:
     - target: {fileID: 3226659111695008361, guid: d18b73750af4f8f4994fc72a8142bfd5, type: 3}
       propertyPath: m_Name
       value: Intersection-4Lane4Lane
+      objectReference: {fileID: 0}
+    - target: {fileID: 3226659111695008361, guid: d18b73750af4f8f4994fc72a8142bfd5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7036849414666241665, guid: d18b73750af4f8f4994fc72a8142bfd5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7854,7 +8307,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!23 &832011748473361378
 MeshRenderer:
@@ -7951,7 +8404,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 0
 --- !u!4 &963905590374776936
 Transform:
@@ -7999,7 +8452,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!23 &1059328420432258130
 MeshRenderer:
@@ -8060,7 +8513,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!33 &1101097742254031937
 MeshFilter:
@@ -8086,6 +8539,10 @@ PrefabInstance:
     - target: {fileID: 5835300128329039050, guid: b0d3ad74e17479441b24da8a92f8af2a, type: 3}
       propertyPath: m_Name
       value: Adjacent-1Lane4Lane
+      objectReference: {fileID: 0}
+    - target: {fileID: 5835300128329039050, guid: b0d3ad74e17479441b24da8a92f8af2a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9076788095222911402, guid: b0d3ad74e17479441b24da8a92f8af2a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8329,6 +8786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4Lane-NoLine
       objectReference: {fileID: 0}
+    - target: {fileID: 4918990272326082373, guid: 4c599e2ebebdd2c48946a0492a45c073, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8439,6 +8900,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-Line
       objectReference: {fileID: 0}
+    - target: {fileID: 1439984127626402447, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6713538069866167926, guid: 4d74142bc3a33d04ab9b860ace77cc83, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -8520,7 +8985,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1660673387870405090 stripped
 Transform:
@@ -8538,6 +9003,10 @@ PrefabInstance:
     - target: {fileID: 617859135632534211, guid: a19ded4d72ee9dc46b9bb0de506f9174, type: 3}
       propertyPath: m_Name
       value: Intersection-2Lane2Lane
+      objectReference: {fileID: 0}
+    - target: {fileID: 617859135632534211, guid: a19ded4d72ee9dc46b9bb0de506f9174, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1669971988050962776, guid: a19ded4d72ee9dc46b9bb0de506f9174, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8600,7 +9069,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1729776007230784383 stripped
 Transform:
@@ -8777,7 +9246,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2079618063229139736 stripped
 Transform:
@@ -8800,7 +9269,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!23 &2155083583373987002
 MeshRenderer:
@@ -8861,7 +9330,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &2183151408811900696
 GameObject:
@@ -8879,7 +9348,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!33 &2239711996136136202
 MeshFilter:
@@ -8935,7 +9404,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2341773142890175472
 Transform:
@@ -9077,7 +9546,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!33 &2447237659784474120
 MeshFilter:
@@ -9173,7 +9642,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &2634372046107212572
 GameObject:
@@ -9191,7 +9660,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &2638800626792436834
 GameObject:
@@ -9209,7 +9678,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &2644611374981297422
 GameObject:
@@ -9227,7 +9696,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2666902989778003507
 Transform:
@@ -9268,7 +9737,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2860341458311667519
 Transform:
@@ -9344,7 +9813,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3046518415695417717 stripped
 Transform:
@@ -9523,6 +9992,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine-Parking
       objectReference: {fileID: 0}
+    - target: {fileID: 1630615169596639121, guid: 633ec79ebdf23c1449c2b7bc62fa119e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9161792199854276938, guid: 633ec79ebdf23c1449c2b7bc62fa119e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -9599,7 +10072,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3441818839200021256 stripped
 Transform:
@@ -9914,7 +10387,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!33 &3822291636219402475
 MeshFilter:
@@ -10131,6 +10604,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-Line-Parking
       objectReference: {fileID: 0}
+    - target: {fileID: 1552126025149287798, guid: 39f6c03bda7988b43812532d027355f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10152,6 +10629,10 @@ PrefabInstance:
     - target: {fileID: 2953316039792916447, guid: 2c68d87a340d10a4c9f531b4bee8239d, type: 3}
       propertyPath: m_Name
       value: 1Lane-Parking
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953316039792916447, guid: 2c68d87a340d10a4c9f531b4bee8239d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8764159958769537151, guid: 2c68d87a340d10a4c9f531b4bee8239d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10251,8 +10732,8 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
 --- !u!23 &4203701804770482141
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10350,6 +10831,10 @@ PrefabInstance:
     - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_Name
       value: 1Lane
+      objectReference: {fileID: 0}
+    - target: {fileID: 4779295885742157299, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4813232613852089475, guid: 6e94b0d7bb1525f43bff8d9712430fbf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10464,6 +10949,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 1Lane-Bend
       objectReference: {fileID: 0}
+    - target: {fileID: 6337715377392978031, guid: 76780a3279f203341bc295dbeeb25b6b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10508,7 +10997,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1001 &4707098335508602045
 PrefabInstance:
@@ -10831,7 +11320,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!33 &4784576152724809334
 MeshFilter:
@@ -10892,6 +11381,63 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &4879278398461988669
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 952564540955123749, guid: 610109b4264b113489eeeebb4cc46592, type: 3}
+      propertyPath: m_Name
+      value: NoStoppingSign
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146985085426374109, guid: 610109b4264b113489eeeebb4cc46592, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146985085426374109, guid: 610109b4264b113489eeeebb4cc46592, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146985085426374109, guid: 610109b4264b113489eeeebb4cc46592, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146985085426374109, guid: 610109b4264b113489eeeebb4cc46592, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146985085426374109, guid: 610109b4264b113489eeeebb4cc46592, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146985085426374109, guid: 610109b4264b113489eeeebb4cc46592, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146985085426374109, guid: 610109b4264b113489eeeebb4cc46592, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146985085426374109, guid: 610109b4264b113489eeeebb4cc46592, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146985085426374109, guid: 610109b4264b113489eeeebb4cc46592, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5146985085426374109, guid: 610109b4264b113489eeeebb4cc46592, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 610109b4264b113489eeeebb4cc46592, type: 3}
 --- !u!1001 &4881611369018857520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10903,6 +11449,10 @@ PrefabInstance:
     - target: {fileID: 2819713604077985090, guid: 5f88a68fe11e5b240bd804eca8024dcb, type: 3}
       propertyPath: m_Name
       value: Intersection-2Lane4Lane
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819713604077985090, guid: 5f88a68fe11e5b240bd804eca8024dcb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8020922053708758750, guid: 5f88a68fe11e5b240bd804eca8024dcb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10981,6 +11531,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4Lane-Crossing
       objectReference: {fileID: 0}
+    - target: {fileID: 6019151873984862523, guid: 54ba4659edf99264aa998f6cbef9a9c0, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7223113047778786286, guid: 54ba4659edf99264aa998f6cbef9a9c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -11050,7 +11604,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!23 &5184779703370639963
 MeshRenderer:
@@ -11207,7 +11761,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5498423437487264729
 Transform:
@@ -11301,6 +11855,10 @@ PrefabInstance:
     - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_Name
       value: 2Lane-DashLine-Drainage
+      objectReference: {fileID: 0}
+    - target: {fileID: 870214449492691444, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1557124209727389597, guid: dbe65df781eeeed4388208087d4a7e6a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11419,6 +11977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4Lane-DashLine-Parking
       objectReference: {fileID: 0}
+    - target: {fileID: 5167364821905390433, guid: 7f5b10d6574f12442a052da90172057d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11476,6 +12038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adjacent-2Lane4Lane
       objectReference: {fileID: 0}
+    - target: {fileID: 7261984277791893095, guid: d73736047aa898f468d0f3715b052f6d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11492,6 +12058,10 @@ PrefabInstance:
     - target: {fileID: 4571776453809672436, guid: 3cab92580311e4a4eb29560afd08b47d, type: 3}
       propertyPath: m_Name
       value: Stalinka
+      objectReference: {fileID: 0}
+    - target: {fileID: 4571776453809672436, guid: 3cab92580311e4a4eb29560afd08b47d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8133581023538836606, guid: 3cab92580311e4a4eb29560afd08b47d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11679,7 +12249,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!33 &6363325368986443796
 MeshFilter:
@@ -11713,7 +12283,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!33 &6434948885422300933
 MeshFilter:
@@ -11974,7 +12544,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &6932287251864553654
 GameObject:
@@ -11992,7 +12562,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!33 &6952082660345250596
 MeshFilter:
@@ -12018,7 +12588,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7028927957383717792
 GameObject:
@@ -12036,7 +12606,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!23 &7043594015286124485
 MeshRenderer:
@@ -12149,6 +12719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-DashLine
       objectReference: {fileID: 0}
+    - target: {fileID: 4684479042011249001, guid: 1c00c91008b709945b839a765508f615, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12256,7 +12830,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7337511258621732452
 Transform:
@@ -12347,7 +12921,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7550288411697857564
 Transform:
@@ -12428,6 +13002,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3201647430339360459, guid: 85dbb3b215c302340880e38b97e7dce6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7495757082848191455, guid: 85dbb3b215c302340880e38b97e7dce6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12496,7 +13078,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7788013782696760086
 GameObject:
@@ -12514,7 +13096,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &7828285588820606378
 GameObject:
@@ -12532,7 +13114,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &7835615034239581762
 Transform:
@@ -12604,6 +13186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 4Lane-DashLine
       objectReference: {fileID: 0}
+    - target: {fileID: 8139416772161152933, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8224578196528222091, guid: 0b50a57b31bccd647b9ac0e2d19a5c20, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -12666,6 +13252,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adjacent-1Lane2Lane-Line
       objectReference: {fileID: 0}
+    - target: {fileID: 4989312167119522337, guid: 3f6b3cc0b58bfa741a5808cb4a5288c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8275621549469913689, guid: 3f6b3cc0b58bfa741a5808cb4a5288c5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -12719,9 +13309,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1340175597}
     m_Modifications:
+    - target: {fileID: 301594632387955983, guid: f108668489391ee42be165ce663f8e5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1856329389177569423, guid: f108668489391ee42be165ce663f8e5a, type: 3}
       propertyPath: m_Name
       value: CrossingSign
+      objectReference: {fileID: 0}
+    - target: {fileID: 1856329389177569423, guid: f108668489391ee42be165ce663f8e5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4561191695504286820, guid: f108668489391ee42be165ce663f8e5a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12792,7 +13390,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!33 &8206589126649601440
 MeshFilter:
@@ -12818,7 +13416,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8214742676504130604 stripped
 Transform:
@@ -12877,6 +13475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 2Lane-Crossing
       objectReference: {fileID: 0}
+    - target: {fileID: 4930381066461503882, guid: aa0ca6eab9e9b7743915113530fb4b5d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12898,7 +13500,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8255644010263576871
 Transform:
@@ -12990,7 +13592,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1 &8437845425909280413
 GameObject:
@@ -13008,7 +13610,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &8548493476613866805 stripped
 Transform:
@@ -13081,6 +13683,10 @@ PrefabInstance:
     - target: {fileID: 8011852449240114542, guid: 4348b2db165be0e4d9f5f4c6cdb48c44, type: 3}
       propertyPath: m_Name
       value: Adjacent-1Lane2Lane-DashLine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8011852449240114542, guid: 4348b2db165be0e4d9f5f4c6cdb48c44, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13206,7 +13812,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!1001 &8952266843646554261
 PrefabInstance:
@@ -13219,6 +13825,10 @@ PrefabInstance:
     - target: {fileID: 3416074956263715162, guid: fa9b994baed5c094f8488919a9c946e8, type: 3}
       propertyPath: m_Name
       value: Adjacent-1Lane1Lane
+      objectReference: {fileID: 0}
+    - target: {fileID: 3416074956263715162, guid: fa9b994baed5c094f8488919a9c946e8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5487814337324579032, guid: fa9b994baed5c094f8488919a9c946e8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13347,7 +13957,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!33 &9094481680337873020
 MeshFilter:
@@ -13373,6 +13983,10 @@ PrefabInstance:
     - target: {fileID: 1854334161140933323, guid: 5d1a08439d5d6ff46a99b37273bd1a90, type: 3}
       propertyPath: m_Name
       value: 2Lane-Line-Drainage
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854334161140933323, guid: 5d1a08439d5d6ff46a99b37273bd1a90, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 3679048884923828176, guid: 5d1a08439d5d6ff46a99b37273bd1a90, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13430,6 +14044,10 @@ PrefabInstance:
     - target: {fileID: 1299479914978517801, guid: a0d64d36737e1b4408a0634aed3b3735, type: 3}
       propertyPath: m_Name
       value: 4Lane-DashLine-Drainage
+      objectReference: {fileID: 0}
+    - target: {fileID: 1299479914978517801, guid: a0d64d36737e1b4408a0634aed3b3735, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6764646139094875324, guid: a0d64d36737e1b4408a0634aed3b3735, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13490,4 +14108,6 @@ SceneRoots:
   - {fileID: 543450651758053834}
   - {fileID: 1987413416}
   - {fileID: 624411867}
+  - {fileID: 4879278398461988669}
   - {fileID: 3565064642635278660}
+  - {fileID: 860341945}
